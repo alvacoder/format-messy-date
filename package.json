@@ -1,0 +1,35 @@
+{
+  "name": "format-messy-time",
+  "version": "1.0.0",
+  "description": "format messy human date and time strings",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "devDependencies": {
+    "months": "^1.0.0",
+    "strftime": "^0.9.0",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "TZ=US/Pacific tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/realprinceviper/format-messy-time.git"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "parse",
+    "human",
+    "format"
+  ],
+  "author": "realprinceviper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realprinceviper/format-messy-time/issues"
+  },
+  "homepage": "https://github.com/princeviper/format-messy-time"
+}
