@@ -9,7 +9,7 @@ format messy human date and time strings
 ```
 var format = require('format-messy-time');
 var q = process.argv.slice(2).join(' ');
-console.log(format(q));
+console.log(parse(q));
 ```
 
 output:
@@ -49,7 +49,7 @@ var format = require('format-messy-time')
 
 ## var d = format(str, opts)
 
-Format `str`, returning a Date instance `d`.
+format `str`, returning a Date instance `d`.
 
 * `opts.now` - interpret `str` with respect to `opts.now`, default `Date.now()`
 
