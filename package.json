@@ -1,5 +1,5 @@
 {
-  "name": "format-messy-time",
+  "name": "format-messy-date",
   "version": "1.0.0",
   "description": "format messy human date and time strings based on parse human time by @ substack",
   "main": "index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/realprinceviper/format-messy-time.git"
+    "url": "git://github.com/realprinceviper/format-messy-date.git"
   },
   "keywords": [
     "date",
@@ -29,7 +29,7 @@
   "author": "realprinceviper",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/realprinceviper/format-messy-time/issues"
+    "url": "https://github.com/realprinceviper/format-messy-date/issues"
   },
-  "homepage": "https://github.com/realprinceviper/format-messy-time"
+  "homepage": "https://github.com/realprinceviper/format-messy-date"
 }

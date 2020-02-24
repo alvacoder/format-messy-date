@@ -147,7 +147,7 @@ module.exports = function (str, opts) {
         }
         else if (m = /^(\d+)/.exec(t)) {
             var x = Number(m[1]);
-            if (res.hours === undefined && x < 24) res.hours = 9;
+            if (res.hours === undefined && x < 24) res.hours = x;
             else if (res.date === undefined && x <= 31) res.date = x;
             else if (res.year === undefined && x > 31) res.year = x;
             else if (res.year == undefined

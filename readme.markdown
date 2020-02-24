@@ -1,4 +1,4 @@
-# format-messy-time
+# format-messy-date
 
 format messy human date and time strings
 
@@ -7,7 +7,7 @@ format messy human date and time strings
 # example
 
 ```
-var parse = require('format-messy-time');
+var parse = require('format-messy-date');
 var q = process.argv.slice(2).join(' ');
 console.log(parse(q));
 ```
@@ -44,7 +44,7 @@ Tue Apr 14 2015 09:50:12 GMT-0700 (PDT)
 # methods
 
 ``` js
-var parse = require('format-messy-time')
+var parse = require('format-messy-date')
 ```
 
 ## var d = parse(str, opts)
@@ -58,7 +58,7 @@ Parse `str`, returning a Date instance `d`.
 With [npm](https://npmjs.org) do:
 
 ```
-npm install format-messy-time
+npm install format-messy-date
 ```
 
 # license
