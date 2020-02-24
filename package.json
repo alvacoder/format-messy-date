@@ -1,7 +1,7 @@
 {
   "name": "format-messy-time",
   "version": "1.0.0",
-  "description": "format messy human date and time strings",
+  "description": "format messy human date and time strings based on parse human time by @ substack",
   "main": "index.js",
   "directories": {
     "example": "example",
@@ -31,5 +31,5 @@
   "bugs": {
     "url": "https://github.com/realprinceviper/format-messy-time/issues"
   },
-  "homepage": "https://github.com/princeviper/format-messy-time"
+  "homepage": "https://github.com/realprinceviper/format-messy-time"
 }

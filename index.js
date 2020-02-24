@@ -86,8 +86,23 @@ module.exports = function (str, opts) {
                 i = j;
             }
         }
+        else if (/afternoon/.test(t)) {
+          res.hours = 14
+          res.minutes = 0
+          res.seconds = 0
+        }
         else if (/noon/.test(t)) {
           res.hours = 12
+          res.minutes = 0
+          res.seconds = 0
+        }
+        else if (/evening/.test(t)) {
+          res.hours = 17
+          res.minutes = 0
+          res.seconds = 0
+        }
+        else if (/night/.test(t)) {
+          res.hours = 21
           res.minutes = 0
           res.seconds = 0
         }
@@ -132,7 +147,7 @@ module.exports = function (str, opts) {
         }
         else if (m = /^(\d+)/.exec(t)) {
             var x = Number(m[1]);
-            if (res.hours === undefined && x < 24) res.hours = x;
+            if (res.hours === undefined && x < 24) res.hours = 9;
             else if (res.date === undefined && x <= 31) res.date = x;
             else if (res.year === undefined && x > 31) res.year = x;
             else if (res.year == undefined
@@ -206,7 +221,7 @@ module.exports = function (str, opts) {
         res.month = nmonth(res.month);
     }
     var out = new Date(now);
-    out.setHours(res.hours === undefined ? 0 : res.hours);
+    out.setHours(res.hours === undefined ? 9 : res.hours);
     out.setMinutes(res.minutes === undefined ? 0 : res.minutes);
     out.setSeconds(res.seconds === undefined ? 0 : res.seconds);
     var monthSet = res.month;

@@ -1,4 +1,4 @@
-var parse = require('..');
+var parse = require('../');
 var months = require('months');
 var test = require('tape');
 var strftime = require('strftime');
