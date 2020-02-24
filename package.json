@@ -8,7 +8,7 @@
     "test": "test"
   },
   "devDependencies": {
-    "months": "^1.0.0",
+    "months": "^1.0.1",
     "strftime": "^0.9.0",
     "tape": "^4.0.0"
   },
