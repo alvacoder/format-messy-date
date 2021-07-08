@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/realprinceviper/format-messy-date.git"
+    "url": "git://github.com/alvacoder/format-messy-date.git"
   },
   "keywords": [
     "date",
@@ -26,10 +26,10 @@
     "human",
     "format"
   ],
-  "author": "realprinceviper",
+  "author": "alvacoder",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/realprinceviper/format-messy-date/issues"
+    "url": "https://github.com/alvacoder/format-messy-date/issues"
   },
-  "homepage": "https://github.com/realprinceviper/format-messy-date"
+  "homepage": "https://github.com/alvacoder/format-messy-date"
 }
